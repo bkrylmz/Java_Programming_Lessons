@@ -10,6 +10,7 @@ public class FinalVariable {
     }
 
     public FinalVariable(String birthDay) {
+
         this.birthDay = birthDay;
     }
 

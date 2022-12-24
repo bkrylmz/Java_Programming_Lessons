@@ -7,8 +7,9 @@ public class FinallyBlock {
         int[] arr = {1,2,3};
 
         try {
-            System.out.println(arr[10]);
+
             System.out.println("Try Block");
+            System.out.println(arr[10]);
         }catch (RuntimeException e){
             System.out.println("Catch Block");
             e.printStackTrace();
